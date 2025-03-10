@@ -1,0 +1,75 @@
+body {
+    background-color:black;
+}
+
+* {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+header {
+    font-size: 30px;
+    text-align: center;
+    color: white;
+}
+
+header > h1 {
+    color:#33c2bf;
+}
+
+nav.menu-principal {
+    background-color: #33c2bf;
+    background-position: left;
+    font-size: 18px;
+    width: 200px;
+    height: 700px;
+    position: fixed;
+    left: 0px;
+    z-index:1;
+    overflow:auto;
+    text-align: left;
+    padding: 30px 10px;
+}
+
+nav > h3, li, a {
+    background-color: #33c2bf;
+    color: white;
+    font-size: 15px;
+}
+
+section {
+    font-size: 15px;
+    text-align: justify;
+    float: right;
+    width: 1120px;
+    color: white;
+}
+
+article {
+    font-size: 18px;
+    text-align: justify;
+    float: right;
+    width: 1120px;
+    background-color: #33c2bf;
+    margin: 10px;
+}
+
+article > h3, button, h4, li, ol, p {
+    background-color: #33c2bf;
+    color: white;
+}
+
+article > h3 {
+    font-size: 30px;
+}
+
+header > p {
+    float: right;
+    text-align: center;
+    width: 1140px;
+}
+
+header > h1 {
+    float: right;
+    text-align: center;
+    width: 1140px;
+}
